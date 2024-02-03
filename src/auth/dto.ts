@@ -30,4 +30,10 @@ export class GetSessionInfoDto {
 
   @ApiProperty()
   email: number;
+
+  @ApiProperty()
+  iat: number;
+
+  @ApiProperty()
+  exp: number;
 }
